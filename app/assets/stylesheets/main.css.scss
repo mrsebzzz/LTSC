@@ -37,15 +37,7 @@ textarea {
   padding-top: 50px;
 }
 
-/* Media information */
-.media {
-  height: 75%;
-  width: 50%;
-  background-color: #eee;
-  margin-left: 100px;
-  margin-top: 25px;
-  border-radius: 10px;
-}
+
 
 /* typography */
 
@@ -84,7 +76,7 @@ p {
 
 #logo {
   float: left;
-  margin-right: 100px;
+  margin-right: 20px;
   font-size: 1.7em;
   color: #fff;
   text-transform: uppercase;
@@ -135,7 +127,6 @@ footer {
         margin:0;
         margin-top: 10px;
         padding: 0;
-        display: inli;
     }
  
     #custom-search-input .search-query {
@@ -160,4 +151,20 @@ footer {
   height: 100px;
   background: white;
   border-top: 2px solid #9999FF;
+}
+
+.search {
+  float:right;
+  padding: 10px 10px 10px 10px;
+}
+
+/* Media information */
+.media {
+  height: 60%;
+  width: 50%;
+  background-color: #eee;
+  margin-left: 100px;
+  margin-top: 25px;
+  border-radius: 10px;
+  border: 2px solid #9999FF;
 }
