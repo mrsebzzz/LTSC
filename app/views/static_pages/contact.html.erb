@@ -1,4 +1,10 @@
-<% provide(:title, "Contact") %>
-
-<h1>StaticPages#contact</h1>
-<p>Find me in app/views/static_pages/contact.html.erb</p>
+<div class="center">
+  <div class="container">
+    <h1>Contact</h1>
+    <p>Feel free to contact me at <%= mail_to "sebasw9@vt.edu" do %>
+      <span>sebasw9@vt.edu</span>
+    <% end %> </p>
+    
+    <a href="http://www.sebastianwalker.info/">www.SebastianWalker.info</a>
+  </div>
+</div>

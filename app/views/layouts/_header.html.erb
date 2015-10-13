@@ -1,0 +1,30 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+
+  <div class="container">
+    <%= link_to "LISTEN TO STRING CHEESE", root_path, id: "logo" %>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Home",   root_path %></li>
+        <li><%= link_to "About",   static_pages_about_path %></li>
+        <li><%= link_to "Contact", static_pages_contact_path %></li>
+        <li><%= link_to "Log In", '#' %></li>
+      </ul>
+    </nav>
+    
+        <div class="row">
+          <div id="custom-search-input">
+            <div class="input-group col-md-4">
+            <input type="text" class="search-query form-control" placeholder="Search by song, venue, date, etc." />
+              <span class="input-group-btn">
+              <button class="btn btn-danger" type="button">
+              <span class=" glyphicon glyphicon-search"></span>
+              </button>
+              </span>
+            </div>
+          </div>
+        </div>
+  </div>
+  
+  
+
+</header>
