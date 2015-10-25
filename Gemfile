@@ -19,10 +19,6 @@ group :development, :test do
   gem 'spring'
 end
 
-group :development do
-  gem "better_errors"
-  gem "binding_of_caller"
-end
 
 group :production do
   gem 'pg',             '0.17.1'
